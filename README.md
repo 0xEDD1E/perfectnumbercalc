@@ -1,7 +1,7 @@
 # Perfect Number Calculator 
-###### perfectnumbercalc
-#### version 1.0
-Calculate Perfect numbers in a range
+`perfectnumbercalc`  
+`version 1.0`  
+**Calculate Perfect numbers in a range**
 
 ### Description
 `perfectnum` is a assembly written program to find perfect numbers in a user given range.<br />
