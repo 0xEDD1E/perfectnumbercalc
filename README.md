@@ -1,4 +1,6 @@
-# perfectnumbercalc
+# Perfect Number Calculator 
+###### perfectnumbercalc
+#### version 1.0
 Calculate Perfect numbers in a range
 
 ### Description
