@@ -50,6 +50,9 @@ GetMaxStr:
 	mov ebx, 0		; specify stdin
 	mov ecx, Mstr		; specify the base address of Maximum number string
 	mov edx, MSTRLEN	; specify the number of bytes to read
+				; Maximum digits for Mstr is 10, because 4294967295 has 10  digits. If user input
+				; a number greater than 4294967295 but with 10 digits program will not perform well
+				; For now, there is no way to handle this error. THIS IS A BUG!
 	int 80H			; call Service Dispatcher
 	
 	push eax		; push the return value of sys_read onto the stack
