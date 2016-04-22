@@ -39,7 +39,7 @@ $
 ### Limitations
 Because I assembled this program in a 32-bit environment, Maximum number this program can handle in `4294967295`.
 This is caused because I heavily depends on the x86 GP registers (`EAX, EBX, ECX, EDX, EDI, ESI, EBP`).
-This means If I used x86-64 GP Registers that `perfectnum` can handle is 2^{64} - 1 :aaa1
+Does that mean If I used x86-64 GP Registers, `perfectnum` can handle is 2^{64} - 1 ?
 
 ### Conculsion
 Yes, This Program is not very useful.
